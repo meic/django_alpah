@@ -4,6 +4,7 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import render
 import datetime
 
+
 def hello(request):
     return HttpResponse("Hello world")
     
