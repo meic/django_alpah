@@ -79,7 +79,7 @@ USE_L10N = True
 USE_TZ = True
 
 TEMPLATE_DIRS = (
-    '/home/meic/webproject/django_alpah/mysite/templates',
+    os.path.join(os.path.dirname(__file__),"templates"),
 )
 
 
